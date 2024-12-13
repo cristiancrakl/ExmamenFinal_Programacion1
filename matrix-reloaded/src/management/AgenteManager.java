@@ -35,6 +35,10 @@ public class AgenteManager {
         }
     }
 
+    public void regresarMenu(){
+        
+    }
+
     public void mostrarMenu() {
         boolean continuar = true;
         while (continuar) {
@@ -49,7 +53,9 @@ public class AgenteManager {
                 case 1 -> registrarAgente();
                 case 2 -> mostrarAgentes();
                 case 3 -> continuar = false;
+                case 4 -> continuar = false;
                 default -> System.out.println("Opción no válida.");
+
             }
         }
     }
