@@ -35,6 +35,7 @@ public class AgenteManager {
         }
     }
 
+    //trate de hacer el menu para regresar pero funciona el requerimiento
     public void regresarMenu(){
         
     }
